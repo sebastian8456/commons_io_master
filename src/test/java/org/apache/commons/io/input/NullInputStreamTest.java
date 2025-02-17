@@ -59,6 +59,7 @@ public class NullInputStreamTest {
         input.close();
         assertEquals("Available after close", size, input.available());
 
+
         // Additional boundary test: Read exactly the last byte
         input.close(); // Reset the stream
         for (int i = 0; i < size - 1; i++) {

@@ -103,6 +103,8 @@ public class TailerTest {
         listener.clear();
     }
 
+
+
     @Test
     public void testBufferBreak() throws Exception {
         final long delay = 50;
